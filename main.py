@@ -8,7 +8,7 @@ win = sg.Window("ストップウォッチ",layout,font=(None,14),size=(400,120),
 def execute():
     if startflag == True:
         now = datetime.datetime.now()
-        td = now - stat
+        td = now - start
         win["txt"].update(td)
 
         def startstop():
