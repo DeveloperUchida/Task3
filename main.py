@@ -25,6 +25,6 @@ def execute():
                     execute()
                     if e == "btn":
                         startstop()
-                        if e == None:
-                            break
-                            win.close()
+                    if e == None:
+                        break
+win.close()
